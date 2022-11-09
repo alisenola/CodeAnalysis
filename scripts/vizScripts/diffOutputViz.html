@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  stroke: #000;
+}
+
+.node {
+  stroke: #000;
+}
+
+.dirNode {
+  stroke: #000;
+}
+
+.node text {
+  pointer-events: none;
+}
+
+text.shadow {
+    stroke: white;
+    stroke-width: 10px;
+    opacity: 0.9;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js"></script>
+
+<script src="util.js"></script>
+
+<!-- Insert random buttons here to create different views -->
+<div id="option">
+    <input name="ShowAdded" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Added" 
+           onclick="showAddedF()" />
+    <input name="ShowRemoved" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Removed" 
+           onclick="showRemovedF()" />
+    <input name="ShowUnchanged" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Unchanged" 
+           onclick="showUnchangedF()" />
+    <input name="ShowModified" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Modified" 
+           onclick="showModifiedF()" />
+    <input name="ShowFormer" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Former" 
+           onclick="showFormerF()" />
+    <input name="ShowTarget" 
+           type="button" 
+           style="font-size:40px"
+           value="Show Target" 
+           onclick="showTargetF()" />
+</div>
+
+
+<script src="currentData.js"></script>
+<script src="diffViz.js"></script>

@@ -1,0 +1,51 @@
+{
+	"paths": {
+		"output": "../output_datasets/06_ramp_down_output/",
+		"extensions": "../auxiliary_datasets/extensions.csv",
+		"deployments": "../auxiliary_datasets/deployments.csv",
+		"thirdparty":  "../auxiliary_datasets/thirdparty-packages.csv",
+		"noextfiles": "",
+		"tools": "",
+		"libraries": ""
+	},
+    "tasks": [
+      {
+        "type": "Profiler"
+      },
+      {
+        "type": "Diffs",
+        "run": "False",
+        "inputFolder": "../input_datasets",
+        "outputFolder": "../output_datasets/01_loc_output",
+        "counter": "1/1"
+      },
+      {
+      	"type": "AnalyzeDiffs",
+      	"run": "False",
+      	"thresholds": [100,50],
+      	"outputFolder": "../output_datasets/01_loc_output",
+      	"inputFolder": "../output_datasets/01_loc_output"
+      },
+      {
+        "type": "RampDownCurve",
+        "run": "True"
+      }],
+	"comparisons": [
+		{
+			"fromID" : "MW_O",
+			"toID" : "MW2_O",
+			"params" : "",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output/diffs-100.csv"
+		},
+		{
+			"fromID" : "MW_O",
+			"toID" : "MW2_O",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output/diffs-100.csv"
+		}
+	]
+}

@@ -1,0 +1,111 @@
+{
+	"paths": {
+		"rampout": "../output_datasets/06_ramp_down_output/",
+		"diffout": "../output_datasets/01_diff_output/",
+		"inputFolder": "../input_datasets",
+    "langDef": "../auxiliary_datasets/cloc-lang-def.txt",
+		"noextfiles": "",
+    "extensions": "",
+		"undpath": "../../../../../../Program Files/SciTools/bin/pc-win64/und.exe",
+    "strings": "../auxiliary_datasets/metaStrings.json",
+		"depout": "../output_datasets/02_deptest",
+    "profout": "../output_datasets/03_profiler/",
+    "vizout": "../output_datasets/08_viz_output"
+	},
+  "auxpaths": {
+    "tools":  "../auxiliary_datasets/tools.csv",
+    "code":  "../auxiliary_datasets/code.csv",
+    "thirdparty":  "../auxiliary_datasets/thirdparty.csv",
+    "deployments": "../auxiliary_datasets/deployments.csv"  
+  },
+  "tasks": [
+    {
+      "type": "Profiler",
+      "run": "False"
+    },
+    {
+      "type": "MetaProfiler",
+      "run": "False"
+    },
+    {
+      "type": "DiagnoseDiffs",
+      "run": "False"
+    },
+    {
+      "type": "ClocDiffs",
+      "run": "False"
+    },
+    {
+      "type": "Diffs",
+      "counter": "1/1",
+      "run": "False"
+    },
+    {
+      "type": "GenUdb",
+      "lang": "C++",
+      "run": "True"
+    },
+    {
+      "type": "GenDeps",
+      "run": "False"
+    },
+    {
+    	"type": "AnalyzeDiffs",
+      "thresholds": [100,50],
+      "run": "False"
+    },
+    {
+      "type": "RampDownCloc",
+      "run": "False"
+    },
+    {
+      "type": "RampDownCurve",
+      "run": "False"
+    },
+    {
+      "type": "RampDownDeps",
+      "run": "False"
+    },
+    {
+      "type": "Viz",
+      "run": "False"
+    }],
+	"comparisons": [
+		{
+			"fromID" : "MW",
+			"toID" : "MW2",
+			"params" : [
+        {"thirdparty" : 0},
+        {}
+      ],
+			"percentage" : "50"
+		},
+    {
+      "fromID" : "MW",
+      "toID" : "MW3",
+      "params" : [
+        {"thirdparty" : 0},
+        {}
+      ],
+      "percentage" : "50"
+    },
+    {
+      "fromID" : "MW",
+      "toID" : "Ghosts",
+      "params" : [
+        {"thirdparty" : 0},
+        {}
+      ],
+      "percentage" : "50"
+    },
+    {
+      "fromID" : "CoD2",
+      "toID" : "MW",
+      "params" : [
+        {"thirdparty" : 0},
+        {}
+      ],
+      "percentage" : "50"
+    }
+	]
+}

@@ -1,0 +1,36 @@
+{
+  "versions": [
+    {
+      "id": "MW2src_sp",
+      "studio": "Infinity Ward",
+      "check": "alternate",
+      "date": "2/1/2007",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/scripts/tests",
+      "category": "engine"
+    },
+    {
+      "id": "MW2src_sp",
+      "studio": "Infinity Ward",
+      "check": "alternate",
+      "date": "2/1/2007",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/scripts/tests",
+      "category": "engine"
+    },
+    {
+      "id": "MW2src_ps3",
+      "studio": "Infinity Ward",
+      "check": "alternate",
+      "date": "2/1/2007",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/scripts/tests",
+      "category": "engine"
+    },
+    {
+      "id": "MW2src_dw",
+      "studio": "Infinity Ward",
+      "check": "alternate",
+      "date": "2/1/2007",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/scripts/tests",
+      "category": "engine"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+	"paths": {
+		"output": "../output_datasets/06_ramp_down_output/",
+		"extensions": "../auxiliary_datasets/extension-to-source.csv",
+		"deployments": "../auxiliary_datasets/deployments.csv",
+		"thirdparty":  "../auxiliary_datasets/thirdparty-packages.csv",
+		"noextfiles": ""
+	},
+    "tasks": [
+      {
+        "type": "Profiler"
+      },
+      {
+        "type": "Diffs",
+        "inputFolder": "../example_datasets",
+        "outputFolder": "../output_datasets/01_loc_output",
+        "counter": "1/1"
+      },
+      {
+      	"type": "AnalyzeDiffs",
+      	"thresholds": [100,50],
+      	"outputFolder": "../output_datasets/01_loc_output",
+      	"inputFolder": "../output_datasets/01_loc_output"
+      },
+      {
+        "type": "RampDownCurve",
+        "run": "False"
+      }],
+	"comparisons": [
+		{
+			"fromID" : "Testv5",
+			"toID" : "Testv6",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output/diffs-050.csv"
+		},
+		{
+			"fromID" : "Testv5",
+			"toID" : "Testv6",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output/diffs-100.csv"
+		},
+		{
+			"fromID" : "BlackOps",
+			"toID" : "BlackOps2",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO-BO-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "BlackOps",
+			"toID" : "BlackOps2",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO-BO-BO2/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "WaW",
+			"toID" : "BlackOps",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO-BO-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "WaW",
+			"toID" : "BlackOps",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO-BO-BO2/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "WaW",
+			"toID" : "BlackOps2",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "WaW",
+			"toID" : "BlackOps2",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_WAW-BO2/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "MW",
+			"toID" : "MW2",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW2-MW2-MW3/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "MW",
+			"toID" : "MW2",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW2-MW2-MW3/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "MW2",
+			"toID" : "MW3",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW2-MW2-MW3/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "MW2",
+			"toID" : "MW3",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW2-MW2-MW3/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "MW",
+			"toID" : "MW3",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW3/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "MW",
+			"toID" : "MW3",
+			"params" : "ext",
+			"percentage" : "50",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-MW3/diffs-050-ba.csv"
+		},
+		{
+			"fromID" : "MW",
+			"toID" : "WaW",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-WaW/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "WaW",
+			"toID" : "MW2",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-WaW-MW2-BO-MW3-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "MW2",
+			"toID" : "BlackOps",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-WaW-MW2-BO-MW3-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "BlackOps",
+			"toID" : "MW3",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-WaW-MW2-BO-MW3-BO2/diffs-100-ba.csv"
+		},
+		{
+			"fromID" : "MW3",
+			"toID" : "BlackOps2",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_MW-WaW-MW2-BO-MW3-BO2/diffs-100-ba.csv"
+		}
+	]
+}

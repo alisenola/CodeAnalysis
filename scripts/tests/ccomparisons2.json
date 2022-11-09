@@ -1,0 +1,114 @@
+{
+  "comparisons": [
+    {
+      "toID": "WaWtools",
+      "fromID": "MWtools"
+    },
+    {
+      "toID": "BOtools",
+      "fromID": "MWtools"
+    },
+    {
+      "toID": "BO2tools",
+      "fromID": "MWtools"
+    },
+    {
+      "toID": "BO3tools",
+      "fromID": "MWtools"
+    }
+  ],
+  "tasks": [
+    {
+      "run": "False",
+      "type": "Profiler"
+    },
+    {
+      "run": "False",
+      "type": "MetaProfiler"
+    },
+    {
+      "run": "False",
+      "type": "DiagnoseDiffs"
+    },
+    {
+      "run": "False",
+      "type": "ClocDiffs"
+    },
+    {
+      "run": "False",
+      "type": "Diffs",
+      "counter": "1/1"
+    },
+    {
+      "run": "False",
+      "lang": "C++",
+      "type": "GenUdb"
+    },
+    {
+      "run": "False",
+      "type": "GenDeps"
+    },
+    {
+      "run": "False",
+      "type": "AnalyzeDiffs",
+      "thresholds": [
+        100,
+        50
+      ]
+    },
+    {
+      "run": "True",
+      "type": "RampDownCloc"
+    },
+    {
+      "run": "False",
+      "type": "RampDownCurve"
+    },
+    {
+      "run": "False",
+      "type": "RampDownDeps"
+    },
+    {
+      "run": "False",
+      "type": "Viz"
+    },
+    {
+      "extensions": "foobar",
+      "type": "Summary",
+      "style": "diff",
+      "run": "False",
+      "granularity": "foobar",
+      "rowOfInterest": "Percentage"
+    },
+    {
+      "run": "False",
+      "type": "createBigFile"
+    }
+  ],
+  "paths": {
+    "undpath": "../../../../../../Program Files/SciTools/bin/pc-win64/und.exe",
+    "strings": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/metaStrings.json",
+    "cloc": "/usr/local/lib/node_modules/cloc/lib/cloc",
+    "depout": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/output_datasets/02_deptest",
+    "rampout": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/output_datasets/06_ramp_down_output/",
+    "inputFolder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/example_datasets",
+    "diffout": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/output_datasets/01_diff_output/",
+    "profout": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/output_datasets/03_profiler/",
+    "langDef": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/cloc-lang-def.txt",
+    "vizout": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/output_datasets/08_viz_output"
+  },
+  "auxpaths": {
+    "thirdparty": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/thirdparty.csv",
+    "tools": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/tools.csv",
+    "deployments": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/deployments.csv",
+    "nonCode": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/nonCode.csv",
+    "code": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/code.csv",
+    "exclude": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/exclude.csv"
+  },
+  "parameters": [
+    [
+      "tools",
+      0
+    ]
+  ]
+}

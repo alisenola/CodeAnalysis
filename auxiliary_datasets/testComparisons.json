@@ -1,0 +1,82 @@
+{
+  "paths": {
+    "inputFolder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/example_datasets/",
+    "langDef": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/cloc-lang-def.txt",
+    "undpath": "C:/Program Files/SciTools/bin/pc-win64/und.exe",
+    "strings": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/metaStrings.json",
+    "cloc": "/usr/local/lib/node_modules/cloc/lib/cloc"
+  },
+  "auxpaths": {
+    "tools":  "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/tools.csv",
+    "code":  "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/code.csv",
+    "thirdparty":  "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/thirdparty.csv",
+    "deployments": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets/deployments.csv"  
+  },
+  "parameters": [],
+  "tasks": [
+    {
+      "type": "Profiler",
+      "run": "True"
+    },
+    {
+      "type": "MetaProfiler",
+      "run": "True"
+    },
+
+    {
+      "type": "DiagnoseDiffs",
+      "run": "True"
+    },
+    {
+      "type": "ClocDiffs",
+      "run": "True"
+    },
+    {
+      "type": "RampDownCloc",
+      "run": "True"
+    },
+
+    {
+      "type": "GenUdb",
+      "lang": "C++",
+      "run": "True"
+    },
+    {
+      "type": "GenDeps",
+      "run": "True"
+    },
+    {
+      "type": "RampDownDeps",
+      "run": "True"
+    },
+
+    {
+      "type": "GitDiffs",
+      "counter": "1/1",
+      "run": "False"
+    },
+    {
+      "type": "AnalyzeGitDiffs",
+      "thresholds": [100,50],
+      "run": "False"
+    },
+    {
+      "type": "RampDownGit",
+      "run": "False"
+    },
+
+    {
+      "type": "Viz",
+      "run": "False"
+    }
+  ],
+  "comparisons": [
+    {
+      "fromID" : "Testv5",
+      "toID" : "Testv6",
+      "params" : [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+	"versions": [
+		{
+			"id" : "BlackOps",
+			"studio" : "Treyarch",
+			"date" : "2010",
+			"folder" : "2010"
+		},
+		{
+			"id" : "BlackOps2",
+			"studio" : "Treyarch",
+			"date" : "2012",
+			"folder" : "2012"
+		},
+		{
+			"id" : "BlackOps3",
+			"studio" : "Treyarch",
+			"date" : "2015",
+			"folder" : "2015"
+		},
+		{
+			"id" : "MW",
+			"studio" : "Infinity Ward",
+			"date" : "2007",
+			"folder" : "2007"
+		},
+		{
+			"id" : "MW2",
+			"studio" : "Infinity Ward",
+			"date" : "2009",
+			"folder" : "2009"
+		},
+		{
+			"id" : "MW3",
+			"studio" : "Infinity Ward",
+			"date" : "2011",
+			"folder" : "2011"
+		},
+		{
+			"id" : "Ghosts",
+			"studio" : "Sledgehammer",
+			"date" : "2013",
+			"folder" : "2013"
+		},
+		{
+			"id" : "AW",
+			"studio" : "Infinity Ward",
+			"date" : "2014",
+			"folder" : "2014"
+		},
+		{
+			"id" : "WaW",
+			"studio" : "Treyarch",
+			"date" : "2008",
+			"folder" : "2008"
+		},
+		{
+			"id" : "Testv5",
+			"studio" : "Oculus",
+			"date" : "2012",
+			"folder" : "v5"
+		},
+		{
+			"id" : "Testv6",
+			"studio" : "Oculus",
+			"date" : "2013",
+			"folder" : "v6"
+		},
+		{
+			"id" : "MW_O",
+			"studio" : "Infinity Ward",
+			"date" : "2007",
+			"folder" : "cod4_modtool/raw"
+		},
+		{
+			"id" : "MW2_O",
+			"studio" : "Infinity Ward",
+			"date" : "2009",
+			"folder" : "IW4-master"
+		},
+		{
+			"id" : "Cataclysm",
+			"studio" : "Blizzard",
+			"date" : "2011",
+			"folder" : "2011"
+		},
+		{
+			"id" : "Legion",
+			"studio" : "Blizzard",
+			"date" : "2016",
+			"folder" : "2016"
+		}
+	]
+}

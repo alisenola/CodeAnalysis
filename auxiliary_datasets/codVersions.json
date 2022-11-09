@@ -1,0 +1,82 @@
+{
+	"versions": [
+		{
+			"id" : "BlackOps",
+			"studio" : "Treyarch",
+			"date" : "2010",
+			"folder" : "2010"
+		},
+		{
+			"id" : "WaW",
+			"studio" : "Treyarch",
+			"date" : "2008",
+			"folder" : "2008"
+		},
+		{
+			"id" : "BlackOps2",
+			"studio" : "Treyarch",
+			"date" : "2012",
+			"folder" : "2012"
+		},
+		{
+			"id" : "BlackOps3",
+			"studio" : "Treyarch",
+			"date" : "2015",
+			"folder" : "2015"
+		},
+		{
+			"id" : "MW",
+			"studio" : "Infinity Ward",
+			"date" : "2007",
+			"folder" : "cod3-depot/cod3"
+		},
+		{
+			"id" : "CoD2",
+			"studio" : "Infinity Ward",
+			"date" : "2005",
+			"folder" : "depot/cod2"
+		},
+		{
+			"id" : "MW2",
+			"studio" : "Infinity Ward",
+			"date" : "2009",
+			"folder" : "iw4-depot/iw4"
+		},
+		{
+			"id" : "MW3",
+			"studio" : "Infinity Ward",
+			"date" : "2011",
+			"folder" : "iw5-depot/iw5"
+		},
+		{
+			"id" : "Ghosts",
+			"studio" : "Infinity Ward",
+			"date" : "2013",
+			"folder" : "iw6-depot/iw6"
+		},
+		{
+			"id" : "IW",
+			"studio" : "Infinity Ward",
+			"date" : "2013",
+			"folder" : "iw7-depot/iw7"
+		},
+		{
+			"id" : "AW",
+			"studio" : "Sledgehammer",
+			"date" : "2014",
+			"folder" : "2014"
+		},
+		{
+			"id" : "Testv5",
+			"studio" : "Oculus",
+			"date" : "2012",
+			"folder" : "v5"
+		},
+		{
+			"id" : "Testv6",
+			"studio" : "Oculus",
+			"date" : "2013",
+			"folder" : "v6"
+		}
+	]
+}

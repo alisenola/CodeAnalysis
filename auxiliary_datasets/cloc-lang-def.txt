@@ -1,0 +1,162 @@
+GSC
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension gsc
+    3rd_gen_scale 0.77
+    end_of_line_continuation \\$
+techset
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension techset
+    3rd_gen_scale 0.77
+tech
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension tech
+    3rd_gen_scale 0.77
+menu
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension menu
+    3rd_gen_scale 0.77
+cfg
+    filter remove_inline //.*$
+    extension cfg
+    3rd_gen_scale 0.77
+graph
+    filter remove_inline COMMENTLESS_FILE.*$
+    filter call_regexp_common C++
+    extension graph
+    extension rmb
+    extension shock
+    extension accu
+    extension vfcurve
+    3rd_gen_scale 0.77
+animtree
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension atr
+    3rd_gen_scale 0.77
+charAnimScript
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension script
+    3rd_gen_scale 0.77
+arena
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension arena
+    3rd_gen_scale 0.77
+csv
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension csv
+    3rd_gen_scale 0.77
+effects
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension efx
+    3rd_gen_scale 0.77
+gdt
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension gdt
+    3rd_gen_scale 0.77
+gdf
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension gdf
+    3rd_gen_scale 0.77
+idf
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension idf
+    3rd_gen_scale 0.77
+map
+    filter remove_inline //.*$
+    extension map
+    3rd_gen_scale 0.77
+mel
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension mel
+    3rd_gen_scale 0.77
+prj
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension prj
+    3rd_gen_scale 0.77
+settings
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension settings
+    3rd_gen_scale 0.77
+sm
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension sm
+    3rd_gen_scale 0.77
+spkrmap
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension spkrmap
+    3rd_gen_scale 0.77
+string
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension str
+    extension st
+    3rd_gen_scale 0.77
+template
+    filter remove_inline //.*$
+    extension template
+    3rd_gen_scale 0.77
+XANIM_EXPORT
+    filter remove_inline //.*$
+    extension XANIM_EXPORT
+    extension xanim_export
+    3rd_gen_scale 0.77
+XMODEL_EXPORT
+    filter remove_inline //.*$
+    extension XMODEL_EXPORT
+    extension xmodel_export
+    3rd_gen_scale 0.77
+Text
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension txt
+    extension rtf
+    3rd_gen_scale 0.77
+gp3
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension gp3
+    3rd_gen_scale 0.77
+grid
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension grid
+    3rd_gen_scale 0.77
+vision
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension vision
+    3rd_gen_scale 0.77   
+sun
+    filter remove_inline #.*$
+    extension sun
+    3rd_gen_scale 0.77
+fdf
+    filter remove_inline #.*$
+    extension fdf
+    3rd_gen_scale 0.77
+inl
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension inl
+    3rd_gen_scale 0.77
+sln
+    filter remove_inline #.*$
+    extension sln
+    3rd_gen_scale 0.77
+inc
+    filter remove_inline COMMENTLESS_FILE.*$
+    extension inc
+    3rd_gen_scale 0.77
+DevelStudio
+    filter remove_inline #.*$
+    extension dsp
+    extension dsw
+    extension vcp
+    extension vcw
+    3rd_gen_scale 0.77
+csc
+    filter call_regexp_common C++
+    filter remove_inline //.*$
+    extension csc
+    3rd_gen_scale 0.77
+    end_of_line_continuation \\$

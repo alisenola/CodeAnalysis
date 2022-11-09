@@ -1,0 +1,7 @@
+{
+  "stringDic": {
+      "Generate": ["generate"],
+      "License": ["license"],
+      "Copyright": ["copyright"]
+    }
+}

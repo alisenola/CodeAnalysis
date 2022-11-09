@@ -1,0 +1,51 @@
+{
+	"paths": {
+		"output": "../output_datasets/06_ramp_down_output/",
+		"extensions": "../auxiliary_datasets/extensions.csv",
+		"deployments": "../auxiliary_datasets/deployments.csv",
+		"thirdparty":  "../auxiliary_datasets/thirdparty-packages.csv",
+		"noextfiles": "",
+		"tools": "../auxiliary_datasets/tools.csv",
+		"libraries": "../auxiliary_datasets/libraries.csv"
+	},
+    "tasks": [
+      {
+        "type": "Profiler"
+      },
+      {
+        "type": "Diffs",
+        "run": "False",
+        "inputFolder": "../example_datasets",
+        "outputFolder": "../output_datasets/01_loc_output",
+        "counter": "1/1"
+      },
+      {
+      	"type": "AnalyzeDiffs",
+      	"run": "False",
+      	"thresholds": [100,50],
+      	"outputFolder": "../output_datasets/01_loc_output_blizz",
+      	"inputFolder": "../output_datasets/01_loc_output_blizz"
+      },
+      {
+        "type": "RampDownCurve",
+        "run": "True"
+      }],
+	"comparisons": [
+		{
+			"fromID" : "Cataclysm",
+			"toID" : "Legion",
+			"params" : "ext",
+			"percentage" : "100",
+			"dctype" : "differ",
+			"input" : "../output_datasets/01_loc_output_blizz/diffs-100.csv"
+		},
+    {
+      "fromID" : "Cataclysm",
+      "toID" : "Legion",
+      "params" : "",
+      "percentage" : "100",
+      "dctype" : "differ",
+      "input" : "../output_datasets/01_loc_output_blizz/diffs-100.csv"
+    }
+	]
+}

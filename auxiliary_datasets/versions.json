@@ -1,0 +1,251 @@
+{
+  "versions": [
+    {
+      "id" : "Not Defined",
+      "studio" : "Not Defined",
+      "date" : "Not Defined",
+      "check": "Not Defined",
+      "category": "Not Defined",
+      "folder" : "Not Defined"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MW2src_sp",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MW2src_sp",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MW2src_ps3",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MW2src_dw",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2007",
+      "id": "MW"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2007",
+      "id": "MWsrc"
+    },
+    {
+      "studio": "Infinity Ward",
+      "id": "MWmap",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MWsrc-console",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MWsrc-linux",
+      "date": "2/1/2007",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2007",
+      "id": "MWtools"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2008",
+      "id": "WaW"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2008",
+      "id": "WaWsrc"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2008",
+      "id": "WaWtools"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2010",
+      "id": "BO"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2010",
+      "id": "BOsrc"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2010",
+      "id": "BOtools"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2012",
+      "id": "BO2"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2012",
+      "id": "BO2src"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2012",
+      "id": "BO2tools"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2015",
+      "id": "BO3"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2015",
+      "id": "BO3src"
+    },
+    {
+      "studio": "Treyarch",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2015",
+      "id": "BO3tools"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2009",
+      "id": "MW2"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "map",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2009",
+      "id": "MW2map"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2009",
+      "id": "MW2src"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "tools",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2009",
+      "id": "MW2tools"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2011",
+      "id": "MW3"
+    },
+    {
+      "category": "game",
+      "studio": "Infinity Ward",
+      "id": "MW3-release",
+      "date": "2/1/2011",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2011",
+      "id": "MW3src"
+    },
+    {
+      "category": "engine",
+      "studio": "Infinity Ward",
+      "id": "MW3src-release",
+      "date": "2/1/2011",
+      "check": "alternate",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "game",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2013",
+      "id": "Ghosts"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "map",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2013",
+      "id": "Ghostssmap"
+    },
+    {
+      "studio": "Infinity Ward",
+      "category": "engine",
+      "folder": "/Volumes/Works/Works/Solomon/CrimsonCodeAnalysis/auxiliary_datasets",
+      "date": "2/1/2013",
+      "id": "Ghostssrc"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+output_datasets/
+example_datasets/
+input_datasets/
+scripts/build
+*.pyc
+scripts/guiScripts/build
+tools/
